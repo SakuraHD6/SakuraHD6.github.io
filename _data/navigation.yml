@@ -4,6 +4,10 @@ main:
     title_en: "About"
     url: "/#about"
 
+  - title_zh: "论文发表"
+    title_en: "Publications"
+    url: "/#publications"
+
   - title_zh: "获奖经历"
     title_en: "Awards"
     url: "/#awards"

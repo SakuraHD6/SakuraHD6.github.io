@@ -26,6 +26,24 @@ Hello! I am **Deng Huang**, a graduate student currently studying and living in 
 
 </div>
 
+<span class="anchor" id="publications"></span>
+
+<div data-lang="zh" markdown="1">
+
+# 论文发表
+
+暂无，后续更新。
+
+</div>
+
+<div data-lang="en" markdown="1">
+
+# Publications {#publications-en}
+
+No publications to list yet. This section will be updated as new work becomes available.
+
+</div>
+
 <span class="anchor" id="awards"></span>
 
 <div data-lang="zh" markdown="1">
