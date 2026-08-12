@@ -12,14 +12,10 @@
               <a href="{{ domain }}{{ link.url }}" target="_self"><span data-lang="zh">{{ link.title_zh }}</span><span data-lang="en">{{ link.title_en }}</span></a>
             </li>
           {% endfor %}
-          <li class="masthead__menu-item language-switcher" aria-label="Language selector">
-            <a href="?lang=zh" target="_self" role="button" data-set-language="zh" aria-pressed="true">中</a>
-            <span aria-hidden="true">/</span>
-            <a href="?lang=en" target="_self" role="button" data-set-language="en" aria-pressed="false">EN</a>
-          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
+      <a class="language-toggle" href="?lang=en" target="_self" role="button" data-language-toggle aria-label="Switch to English">EN</a>
     </div>
   </div>
 </div>

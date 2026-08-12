@@ -125,43 +125,38 @@ html[lang="en"] div[data-lang="en"] {
     display: block;
 }
 
-.greedy-nav .visible-links .language-switcher {
-    display: table-cell;
-    vertical-align: middle;
+.masthead__menu {
+    display: flex;
+    align-items: center;
+    gap: .65rem;
 }
 
-.greedy-nav .hidden-links .language-switcher {
-    display: block;
-    padding: .5rem 1.25rem;
+.masthead__menu .greedy-nav {
+    flex: 1 1 auto;
+    min-width: 0;
 }
 
-.greedy-nav .language-switcher {
-    padding-left: .65rem;
+.language-toggle {
+    flex: 0 0 auto;
+    min-width: 2.35rem;
+    padding: .35rem .5rem;
+    border: 1px solid #d8d8d8;
+    border-radius: 999px;
+    color: inherit;
+    font-size: .78rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
     white-space: nowrap;
+}
 
-    a[data-set-language] {
-        position: static;
-        right: auto;
-        display: inline-block;
-        width: auto;
-        height: auto;
-        margin: 0;
-        padding: .2rem;
-        border: 0;
-        background: transparent;
-        color: inherit;
-        font: inherit;
-        cursor: pointer;
-        opacity: .55;
-    }
+.language-toggle:hover {
+    color: inherit;
+    background: #f2f2f2;
+}
 
-    a[data-set-language][aria-pressed="true"] {
-        opacity: 1;
-        font-weight: 700;
-    }
-
-    a[data-set-language]:focus-visible {
-        outline: 2px solid currentColor;
-        outline-offset: 2px;
-    }
+.language-toggle:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 2px;
 }
