@@ -4,10 +4,19 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item"><a href="#about-me">Homepage</a></li>
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+            <a href="#about" target="_self"><span data-lang="zh">主页</span><span data-lang="en">Home</span></a>
+          </li>
           {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            <li class="masthead__menu-item">
+              <a href="{{ domain }}{{ link.url }}" target="_self"><span data-lang="zh">{{ link.title_zh }}</span><span data-lang="en">{{ link.title_en }}</span></a>
+            </li>
           {% endfor %}
+          <li class="masthead__menu-item language-switcher" aria-label="Language selector">
+            <a href="?lang=zh" target="_self" role="button" data-set-language="zh" aria-pressed="true">中</a>
+            <span aria-hidden="true">/</span>
+            <a href="?lang=en" target="_self" role="button" data-set-language="en" aria-pressed="false">EN</a>
+          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

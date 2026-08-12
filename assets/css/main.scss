@@ -107,3 +107,61 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+/* Bilingual content and language controls */
+[data-lang="en"] {
+    display: none;
+}
+
+html[lang="en"] [data-lang="zh"] {
+    display: none;
+}
+
+html[lang="en"] [data-lang="en"] {
+    display: initial;
+}
+
+html[lang="en"] div[data-lang="en"] {
+    display: block;
+}
+
+.greedy-nav .visible-links .language-switcher {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.greedy-nav .hidden-links .language-switcher {
+    display: block;
+    padding: .5rem 1.25rem;
+}
+
+.greedy-nav .language-switcher {
+    padding-left: .65rem;
+    white-space: nowrap;
+
+    a[data-set-language] {
+        position: static;
+        right: auto;
+        display: inline-block;
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: .2rem;
+        border: 0;
+        background: transparent;
+        color: inherit;
+        font: inherit;
+        cursor: pointer;
+        opacity: .55;
+    }
+
+    a[data-set-language][aria-pressed="true"] {
+        opacity: 1;
+        font-weight: 700;
+    }
+
+    a[data-set-language]:focus-visible {
+        outline: 2px solid currentColor;
+        outline-offset: 2px;
+    }
+}

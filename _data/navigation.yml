@@ -1,22 +1,17 @@
-# main links links
+# Main links
 main:
-  - title: "About Me"
-    url: "/#about-me"
+  - title_zh: "关于我"
+    title_en: "About"
+    url: "/#about"
 
-  - title: "News"
-    url: "/#-news"
+  - title_zh: "当前方向"
+    title_en: "Current Focus"
+    url: "/#current-focus"
 
-  - title: "Publications"
-    url: "/#-publications"
+  - title_zh: "教育经历"
+    title_en: "Education"
+    url: "/#education"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
-
-  - title: "Educations"
-    url: "/#-educations"
-
-  - title: "Invited Talks"
-    url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"
+  - title_zh: "联系方式"
+    title_en: "Contact"
+    url: "/#contact"
