@@ -1,20 +1,13 @@
 (function () {
-  var storageKey = "homepage-language";
-  var toggle = document.querySelector("[data-language-toggle]");
+  var storageKey = "homepage-language-v2";
+  var selector = document.querySelector("[data-language-selector]");
 
   function setLanguage(language) {
     var selected = language === "en" ? "en" : "zh";
     document.documentElement.lang = selected;
 
-    if (toggle) {
-      var nextLanguage = selected === "zh" ? "en" : "zh";
-      toggle.textContent = nextLanguage === "en" ? "EN" : "中";
-      toggle.setAttribute("href", "?lang=" + nextLanguage);
-      toggle.setAttribute("data-next-language", nextLanguage);
-      toggle.setAttribute(
-        "aria-label",
-        nextLanguage === "en" ? "Switch to English" : "切换到中文"
-      );
+    if (selector) {
+      selector.value = selected;
     }
 
     try {
@@ -37,12 +30,11 @@
     savedLanguage = null;
   }
 
-  setLanguage(savedLanguage || "zh");
+  setLanguage(savedLanguage || "en");
 
-  if (toggle) {
-    toggle.addEventListener("click", function (event) {
-      event.preventDefault();
-      setLanguage(toggle.getAttribute("data-next-language"));
+  if (selector) {
+    selector.addEventListener("change", function () {
+      setLanguage(selector.value);
     });
   }
 })();
