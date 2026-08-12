@@ -20,7 +20,7 @@ redirect_from:
 
 <div data-lang="en" markdown="1">
 
-# About Me
+# About Me {#about-me-en}
 
 Hello! I am **Deng Huang**, a graduate student currently studying and living in Haikou, China. This website documents my learning, research exploration, and project work, and will grow along with my academic journey.
 
@@ -38,7 +38,7 @@ Hello! I am **Deng Huang**, a graduate student currently studying and living in 
 
 <div data-lang="en" markdown="1">
 
-# Current Focus
+# Current Focus {#current-focus-en}
 
 I am currently refining my research interests through coursework, literature reading, and hands-on projects. More specific topics and project outcomes will be added as my direction becomes clearer.
 
@@ -56,7 +56,7 @@ I am currently refining my research interests through coursework, literature rea
 
 <div data-lang="en" markdown="1">
 
-# Education
+# Education {#education-en}
 
 **Graduate Studies** · In progress
 
@@ -74,7 +74,7 @@ I am currently refining my research interests through coursework, literature rea
 
 <div data-lang="en" markdown="1">
 
-# Contact
+# Contact {#contact-en}
 
 Feel free to reach me by [email](mailto:hswingdeng@163.com) or follow my project updates on [GitHub](https://github.com/SakuraHD6).
 
