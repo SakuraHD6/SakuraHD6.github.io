@@ -31,14 +31,18 @@
       {% endif %}
       {% if author.focus %}
         <li class="author__focus">
-          <div class="author__focus-title">
-            <span data-lang="en">Current Focus</span>
-            <span data-lang="zh">当前方向</span>
-          </div>
-          <div class="author__focus-text">
-            <span data-lang="en">{{ author.focus }}</span>
-            <span data-lang="zh">{{ author.focus_zh | default: author.focus }}</span>
-          </div>
+          <section class="research-card" aria-labelledby="research-card-title">
+            <h4 class="research-card__title" id="research-card-title">
+              <span data-lang="en">Research Interests</span>
+              <span data-lang="zh">研究方向</span>
+            </h4>
+            <ul class="research-card__list">
+              <li>
+                <span data-lang="en">{{ author.focus }}</span>
+                <span data-lang="zh">{{ author.focus_zh | default: author.focus }}</span>
+              </li>
+            </ul>
+          </section>
         </li>
       {% endif %}
       {% if author.location %}
