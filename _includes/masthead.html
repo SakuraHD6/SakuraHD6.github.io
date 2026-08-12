@@ -15,13 +15,25 @@
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
-      <label class="language-selector" aria-label="Language">
-        <span class="visually-hidden">Language</span>
-        <select data-language-selector aria-label="Language">
-          <option value="en" selected>English</option>
-          <option value="zh">中文</option>
-        </select>
-      </label>
+      <div class="language-menu" data-language-menu>
+        <button class="language-menu__trigger" type="button" data-language-trigger aria-haspopup="listbox" aria-expanded="false">
+          <span class="language-menu__badge" data-language-badge>EN</span>
+          <span data-language-current>English</span>
+          <span class="language-menu__chevron" aria-hidden="true"></span>
+        </button>
+        <div class="language-menu__dropdown" data-language-dropdown role="listbox" aria-label="Language" hidden>
+          <button class="language-menu__option" type="button" data-language-option="en" role="option" aria-selected="true">
+            <span class="language-menu__badge">EN</span>
+            <span>English</span>
+            <span class="language-menu__check" aria-hidden="true">✓</span>
+          </button>
+          <button class="language-menu__option" type="button" data-language-option="zh" role="option" aria-selected="false">
+            <span class="language-menu__badge">中</span>
+            <span>中文</span>
+            <span class="language-menu__check" aria-hidden="true">✓</span>
+          </button>
+        </div>
+      </div>
     </div>
   </div>
 </div>
