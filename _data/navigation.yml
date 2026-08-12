@@ -4,9 +4,9 @@ main:
     title_en: "About"
     url: "/#about"
 
-  - title_zh: "当前方向"
-    title_en: "Current Focus"
-    url: "/#current-focus"
+  - title_zh: "获奖经历"
+    title_en: "Awards"
+    url: "/#awards"
 
   - title_zh: "教育经历"
     title_en: "Education"

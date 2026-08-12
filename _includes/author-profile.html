@@ -29,6 +29,18 @@
           </div>
         </li>
       {% endif %}
+      {% if author.focus %}
+        <li class="author__focus">
+          <div class="author__focus-title">
+            <span data-lang="en">Current Focus</span>
+            <span data-lang="zh">当前方向</span>
+          </div>
+          <div class="author__focus-text">
+            <span data-lang="en">{{ author.focus }}</span>
+            <span data-lang="zh">{{ author.focus_zh | default: author.focus }}</span>
+          </div>
+        </li>
+      {% endif %}
       {% if author.location %}
         <li>
           <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i>

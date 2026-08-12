@@ -26,21 +26,21 @@ Hello! I am **Deng Huang**, a graduate student currently studying and living in 
 
 </div>
 
-<span class="anchor" id="current-focus"></span>
+<span class="anchor" id="awards"></span>
 
 <div data-lang="zh" markdown="1">
 
-# 当前方向
+# 获奖经历
 
-我目前正通过课程学习、文献阅读和项目实践逐步明确自己的研究兴趣。随着方向进一步清晰，我会在这里补充更具体的研究主题和项目成果。
+暂无，后续更新。
 
 </div>
 
 <div data-lang="en" markdown="1">
 
-# Current Focus {#current-focus-en}
+# Awards {#awards-en}
 
-I am currently refining my research interests through coursework, literature reading, and hands-on projects. More specific topics and project outcomes will be added as my direction becomes clearer.
+No awards to list yet. This section will be updated as new milestones are reached.
 
 </div>
 

@@ -274,3 +274,19 @@ html[lang="zh"] div[data-lang="zh"] {
         width: 11.5rem;
     }
 }
+
+.author__focus {
+    margin-bottom: 1em;
+    white-space: normal !important;
+}
+
+.author__focus-title {
+    margin-bottom: .3em;
+    font-weight: 700;
+}
+
+.author__focus-text {
+    color: #555;
+    font-size: .9em;
+    line-height: 1.45;
+}
