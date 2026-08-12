@@ -7,7 +7,8 @@
 
 # Site Settings
 title: "Deng Huang"
-description: "Personal academic homepage · 个人学术主页"
+description: "Personal academic homepage"
+description_zh: "个人学术主页"
 repository: "SakuraHD6/SakuraHD6.github.io"
 google_scholar_stats_use_cdn: false
 
@@ -23,8 +24,10 @@ baidu_site_verification: # get baidu_site_verification from https://ziyuan.baidu
 author:
   name: "Deng Huang"
   avatar: "images/avatar_813.jpg"
-  bio: "Graduate Student · 研究生"
-  location: "Haikou, China · 中国海口"
+  bio: "Graduate Student"
+  bio_zh: "研究生"
+  location: "Haikou, China"
+  location_zh: "中国海口"
   employer:
   pubmed:
   googlescholar:
